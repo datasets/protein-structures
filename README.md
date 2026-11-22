@@ -4,12 +4,12 @@ How many protein structures have scientists measured, how, and how does that com
 
 AlphaFold has not replaced experiments. In 2025, four years after AlphaFold DB opened with 365,198 predicted structures, the PDB released 17,236 new experimentally determined structures containing protein, more than in any earlier year and up from 13,820 in 2020. So far in 2026 (to 18 November) it has released 16,047.
 
-For scale: AlphaFold DB's September 2025 release held 241,070,489 predicted structures, about 933 times the 258,244 experimental structures containing protein in the whole PDB. That is a big expansion in coverage, but a prediction is a computed model, not a measurement, and experimental structures are still how predictions are checked. The other shift is in how structures are measured: cryo-electron microscopy produced 41.6% of the new protein structures in 2025, against 2.4% in 2015.
+For scale: AlphaFold DB's September 2025 release held 241,070,489 predicted structures, about 933 times the 258,244 experimental structures containing protein in the whole PDB. That is a big expansion in coverage, but a prediction is a computed model, not a measurement, and experimental structures remain the reference that predictions are tested against. The other shift is in how structures are measured: electron microscopy (mostly cryo-EM) produced 41.6% of the new protein structures in 2025, against 2.4% in 2015.
 
 ## Data
 
 - `data/pdb-releases-by-year.csv`: one row per year, 1976 to 2026. Columns: `year`; `entries` (all experimentally determined PDB entries first released that year, including the few that contain only DNA or RNA); `entries_with_protein` (those with at least one protein chain); `cumulative_entries` and `cumulative_entries_with_protein` (running totals). The PDB holds 263,567 experimental entries in all, 258,244 of them with protein.
-- `data/pdb-releases-by-method.csv`: one row per year and method, with the same two counts. `method` uses RCSB's own grouping: `X-ray`, `EM` (cryo-electron microscopy, also called 3DEM), `NMR` (solution and solid-state), `Integrative` (models combining several kinds of data), `Multiple methods`, `Neutron` and `Other`. Each entry is counted once, so the methods add up to the yearly totals.
+- `data/pdb-releases-by-method.csv`: one row per year and method, with the same two counts. `method` uses RCSB's own grouping: `X-ray`, `EM` (electron microscopy, almost all cryo-EM, plus electron crystallography), `NMR` (solution and solid-state), `Integrative` (models combining several kinds of data), `Multiple methods`, `Neutron` and `Other`. Each entry is counted once, so the methods add up to the yearly totals.
 - `data/alphafold-db-releases.csv`: one row per AlphaFold DB release in its changelog. Columns: `release_date`, `predicted_structures` (the size of the database after that release) and `change` (the changelog's description of the release).
 
 Caveats:
@@ -18,7 +18,7 @@ Caveats:
 - Counts are of entries in the PDB today, by the date each was first released. Entries later withdrawn or replaced (obsoleted) are not counted, so past years may be slightly lower than the number released at the time. The earliest release date in RCSB's records is 1976, though the PDB was founded in 1971.
 - A PDB entry is one deposited structure, and many entries are of the same protein (for example bound to different drugs), so the count is not a count of distinct proteins. AlphaFold DB has roughly one predicted structure per protein sequence in UniProt, and since 2025 it also includes some protein isoforms.
 - The 2025 AlphaFold DB release removed as well as added tens of millions of entries (see its changelog), so the database is not simply cumulative. The changelog does not label each release with a version number.
-- AlphaFold DB's home page now says it holds "over 260 million" predictions, which seems to include collections added after the last changelog entry; this table only includes the counts stated in the changelog.
+- AlphaFold DB's home page says it holds 'over 260 million' predictions (elsewhere on the same page, 'over 200 million'); the latest count in the changelog is 241,070,489 (September 2025), and this table uses only changelog counts.
 
 ## Source and licence
 

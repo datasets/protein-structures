@@ -64,7 +64,7 @@
       "schema": {
         "fields": [
           { "name": "year", "type": "year", "description": "Calendar year of initial release. 2026 is partial, to 18 November 2026." },
-          { "name": "method", "type": "string", "description": "RCSB's grouping of the experimental method: X-ray, EM (cryo-electron microscopy, '3DEM'), NMR, Integrative, Multiple methods, Neutron, Other.", "constraints": { "enum": ["X-ray", "EM", "NMR", "Integrative", "Multiple methods", "Neutron", "Other"] } },
+          { "name": "method", "type": "string", "description": "RCSB's grouping of the experimental method: X-ray, EM (electron microscopy, almost all cryo-EM, plus electron crystallography), NMR, Integrative, Multiple methods, Neutron, Other.", "constraints": { "enum": ["X-ray", "EM", "NMR", "Integrative", "Multiple methods", "Neutron", "Other"] } },
           { "name": "entries", "type": "integer", "description": "Entries first released that year by this method (0 if none)." },
           { "name": "entries_with_protein", "type": "integer", "description": "Of those, entries containing at least one protein chain." }
         ],
