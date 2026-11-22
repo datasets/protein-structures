@@ -1,0 +1,106 @@
+{
+  "name": "protein-structures",
+  "title": "Protein structures: experimental (PDB, 1976-2026) and predicted (AlphaFold DB)",
+  "description": "Experimentally determined structures released in the Protein Data Bank each year from 1976 to 18 November 2026, by experimental method (X-ray, cryo-EM, NMR and others), with cumulative totals; counted from the RCSB PDB Search API. Plus the number of predicted structures in each AlphaFold Protein Structure Database release from 2021 to 2025, from EMBL-EBI's changelog. Frozen snapshot taken on 2026-11-22. The 2026 PDB figures are partial (to 18 November).",
+  "status": "structured",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0 Universal Public Domain Dedication: applies to the PDB files (data/pdb-releases-by-year.csv, data/pdb-releases-by-method.csv), from RCSB PDB",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0: applies to data/alphafold-db-releases.csv, from AlphaFold DB (EMBL-EBI and Google DeepMind); attribute AlphaFold DB",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "sources": [
+    {
+      "title": "RCSB Protein Data Bank Search API (entries counted by initial release date and experimental method)",
+      "path": "https://search.rcsb.org/"
+    },
+    {
+      "title": "RCSB PDB usage policy (CC0)",
+      "path": "https://www.rcsb.org/pages/usage-policy"
+    },
+    {
+      "title": "AlphaFold Protein Structure Database CHANGELOG (EMBL-EBI FTP)",
+      "path": "https://ftp.ebi.ac.uk/pub/databases/alphafold/CHANGELOG.txt"
+    },
+    {
+      "title": "AlphaFold Protein Structure Database (licence and attributions)",
+      "path": "https://alphafold.ebi.ac.uk/"
+    }
+  ],
+  "upkeep": {
+    "mode": "frozen",
+    "snapshot": "2026-11-22"
+  },
+  "resources": [
+    {
+      "path": "data/pdb-releases-by-year.csv",
+      "name": "pdb-releases-by-year",
+      "title": "PDB experimental structures released per year, with cumulative totals",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          { "name": "year", "type": "year", "description": "Calendar year of the entry's initial release in the PDB. 2026 is partial, to 18 November 2026." },
+          { "name": "entries", "type": "integer", "description": "Experimentally determined PDB entries first released that year (all macromolecules, including DNA/RNA-only entries)." },
+          { "name": "entries_with_protein", "type": "integer", "description": "Of those, entries containing at least one protein chain." },
+          { "name": "cumulative_entries", "type": "integer", "description": "Running total of entries released up to and including that year." },
+          { "name": "cumulative_entries_with_protein", "type": "integer", "description": "Running total of entries with protein up to and including that year." }
+        ],
+        "primaryKey": ["year"]
+      }
+    },
+    {
+      "path": "data/pdb-releases-by-method.csv",
+      "name": "pdb-releases-by-method",
+      "title": "PDB experimental structures released per year by method",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          { "name": "year", "type": "year", "description": "Calendar year of initial release. 2026 is partial, to 18 November 2026." },
+          { "name": "method", "type": "string", "description": "RCSB's grouping of the experimental method: X-ray, EM (cryo-electron microscopy, '3DEM'), NMR, Integrative, Multiple methods, Neutron, Other.", "constraints": { "enum": ["X-ray", "EM", "NMR", "Integrative", "Multiple methods", "Neutron", "Other"] } },
+          { "name": "entries", "type": "integer", "description": "Entries first released that year by this method (0 if none)." },
+          { "name": "entries_with_protein", "type": "integer", "description": "Of those, entries containing at least one protein chain." }
+        ],
+        "primaryKey": ["year", "method"]
+      }
+    },
+    {
+      "path": "data/alphafold-db-releases.csv",
+      "name": "alphafold-db-releases",
+      "title": "AlphaFold DB size by release",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          { "name": "release_date", "type": "date", "description": "Date of the AlphaFold DB release, as given in its CHANGELOG." },
+          { "name": "predicted_structures", "type": "integer", "description": "Number of predicted structures in the database after that release, as stated in the CHANGELOG." },
+          { "name": "change", "type": "string", "description": "The CHANGELOG's first line describing that release." }
+        ],
+        "primaryKey": ["release_date"]
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "pdb-releases-by-method-chart",
+      "title": "Experimental structures released in the PDB per year, by method",
+      "resources": ["pdb-releases-by-method"],
+      "specType": "vega-lite",
+      "spec": {
+        "mark": "bar",
+        "encoding": {
+          "x": { "field": "year", "type": "ordinal", "title": "Year of release (2026 to 18 Nov)" },
+          "y": { "field": "entries", "type": "quantitative", "aggregate": "sum", "title": "Entries released" },
+          "color": { "field": "method", "type": "nominal", "title": "Method", "sort": ["X-ray", "EM", "NMR", "Integrative", "Multiple methods", "Neutron", "Other"] }
+        }
+      }
+    }
+  ]
+}

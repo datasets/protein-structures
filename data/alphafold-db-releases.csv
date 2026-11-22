@@ -1,0 +1,7 @@
+release_date,predicted_structures,change
+2021-07-22,365198,"Initial release of 21 model organisms"
+2021-12-09,804872,"Added Swiss-Prot"
+2022-01-27,995411,"Added Global Health Organisms"
+2022-07-28,214687406,"Added UniProt 2021_04"
+2022-11-01,214686924,"Improved prediction accuracy of about 4.4% of predictions"
+2025-09-15,241070489,"Updated to UniProt 2025_03"

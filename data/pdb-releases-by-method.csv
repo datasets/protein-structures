@@ -1,0 +1,358 @@
+year,method,entries,entries_with_protein
+1976,X-ray,13,13
+1976,EM,0,0
+1976,NMR,0,0
+1976,Integrative,0,0
+1976,Multiple methods,0,0
+1976,Neutron,0,0
+1976,Other,0,0
+1977,X-ray,23,23
+1977,EM,0,0
+1977,NMR,0,0
+1977,Integrative,0,0
+1977,Multiple methods,0,0
+1977,Neutron,0,0
+1977,Other,0,0
+1978,X-ray,6,4
+1978,EM,0,0
+1978,NMR,0,0
+1978,Integrative,0,0
+1978,Multiple methods,0,0
+1978,Neutron,0,0
+1978,Other,0,0
+1979,X-ray,11,10
+1979,EM,0,0
+1979,NMR,0,0
+1979,Integrative,0,0
+1979,Multiple methods,0,0
+1979,Neutron,0,0
+1979,Other,0,0
+1980,X-ray,16,7
+1980,EM,0,0
+1980,NMR,0,0
+1980,Integrative,0,0
+1980,Multiple methods,0,0
+1980,Neutron,0,0
+1980,Other,0,0
+1981,X-ray,16,14
+1981,EM,0,0
+1981,NMR,0,0
+1981,Integrative,0,0
+1981,Multiple methods,0,0
+1981,Neutron,0,0
+1981,Other,0,0
+1982,X-ray,32,28
+1982,EM,0,0
+1982,NMR,0,0
+1982,Integrative,0,0
+1982,Multiple methods,0,0
+1982,Neutron,0,0
+1982,Other,0,0
+1983,X-ray,36,35
+1983,EM,0,0
+1983,NMR,0,0
+1983,Integrative,0,0
+1983,Multiple methods,0,0
+1983,Neutron,0,0
+1983,Other,0,0
+1984,X-ray,21,20
+1984,EM,0,0
+1984,NMR,0,0
+1984,Integrative,0,0
+1984,Multiple methods,1,1
+1984,Neutron,0,0
+1984,Other,0,0
+1985,X-ray,19,17
+1985,EM,0,0
+1985,NMR,0,0
+1985,Integrative,0,0
+1985,Multiple methods,1,1
+1985,Neutron,0,0
+1985,Other,0,0
+1986,X-ray,17,15
+1986,EM,0,0
+1986,NMR,0,0
+1986,Integrative,0,0
+1986,Multiple methods,1,1
+1986,Neutron,0,0
+1986,Other,0,0
+1987,X-ray,25,18
+1987,EM,0,0
+1987,NMR,0,0
+1987,Integrative,0,0
+1987,Multiple methods,0,0
+1987,Neutron,0,0
+1987,Other,0,0
+1988,X-ray,52,49
+1988,EM,0,0
+1988,NMR,0,0
+1988,Integrative,0,0
+1988,Multiple methods,0,0
+1988,Neutron,1,1
+1988,Other,0,0
+1989,X-ray,71,61
+1989,EM,0,0
+1989,NMR,2,2
+1989,Integrative,0,0
+1989,Multiple methods,1,1
+1989,Neutron,0,0
+1989,Other,0,0
+1990,X-ray,135,125
+1990,EM,0,0
+1990,NMR,7,7
+1990,Integrative,0,0
+1990,Multiple methods,0,0
+1990,Neutron,0,0
+1990,Other,0,0
+1991,X-ray,162,148
+1991,EM,1,1
+1991,NMR,23,20
+1991,Integrative,0,0
+1991,Multiple methods,0,0
+1991,Neutron,1,1
+1991,Other,0,0
+1992,X-ray,181,151
+1992,EM,0,0
+1992,NMR,11,11
+1992,Integrative,0,0
+1992,Multiple methods,0,0
+1992,Neutron,0,0
+1992,Other,0,0
+1993,X-ray,622,572
+1993,EM,0,0
+1993,NMR,74,68
+1993,Integrative,0,0
+1993,Multiple methods,0,0
+1993,Neutron,0,0
+1993,Other,0,0
+1994,X-ray,1067,1037
+1994,EM,0,0
+1994,NMR,222,197
+1994,Integrative,0,0
+1994,Multiple methods,0,0
+1994,Neutron,0,0
+1994,Other,0,0
+1995,X-ray,750,718
+1995,EM,0,0
+1995,NMR,190,165
+1995,Integrative,0,0
+1995,Multiple methods,0,0
+1995,Neutron,0,0
+1995,Other,1,0
+1996,X-ray,983,905
+1996,EM,1,1
+1996,NMR,187,166
+1996,Integrative,0,0
+1996,Multiple methods,1,1
+1996,Neutron,0,0
+1996,Other,0,0
+1997,X-ray,1234,1168
+1997,EM,1,1
+1997,NMR,329,250
+1997,Integrative,0,0
+1997,Multiple methods,0,0
+1997,Neutron,0,0
+1997,Other,0,0
+1998,X-ray,1722,1670
+1998,EM,2,2
+1998,NMR,331,265
+1998,Integrative,0,0
+1998,Multiple methods,0,0
+1998,Neutron,0,0
+1998,Other,0,0
+1999,X-ray,1960,1895
+1999,EM,2,2
+1999,NMR,389,324
+1999,Integrative,0,0
+1999,Multiple methods,1,1
+1999,Neutron,2,2
+1999,Other,2,2
+2000,X-ray,2236,2163
+2000,EM,14,10
+2000,NMR,370,305
+2000,Integrative,0,0
+2000,Multiple methods,1,1
+2000,Neutron,1,1
+2000,Other,2,2
+2001,X-ray,2382,2327
+2001,EM,13,13
+2001,NMR,413,348
+2001,Integrative,0,0
+2001,Multiple methods,0,0
+2001,Neutron,2,2
+2001,Other,0,0
+2002,X-ray,2525,2492
+2002,EM,25,24
+2002,NMR,441,367
+2002,Integrative,0,0
+2002,Multiple methods,0,0
+2002,Neutron,2,2
+2002,Other,1,1
+2003,X-ray,3582,3505
+2003,EM,29,27
+2003,NMR,529,454
+2003,Integrative,0,0
+2003,Multiple methods,2,2
+2003,Neutron,0,0
+2003,Other,1,1
+2004,X-ray,4399,4348
+2004,EM,15,14
+2004,NMR,727,660
+2004,Integrative,0,0
+2004,Multiple methods,2,2
+2004,Neutron,2,2
+2004,Other,4,4
+2005,X-ray,4428,4327
+2005,EM,24,23
+2005,NMR,874,830
+2005,Integrative,0,0
+2005,Multiple methods,0,0
+2005,Neutron,3,1
+2005,Other,5,5
+2006,X-ray,5509,5438
+2006,EM,29,28
+2006,NMR,860,805
+2006,Integrative,0,0
+2006,Multiple methods,2,1
+2006,Neutron,1,1
+2006,Other,4,4
+2007,X-ray,6139,6060
+2007,EM,20,19
+2007,NMR,965,901
+2007,Integrative,0,0
+2007,Multiple methods,3,3
+2007,Neutron,2,2
+2007,Other,5,5
+2008,X-ray,6196,6109
+2008,EM,43,42
+2008,NMR,652,621
+2008,Integrative,0,0
+2008,Multiple methods,2,1
+2008,Neutron,5,5
+2008,Other,4,4
+2009,X-ray,6663,6586
+2009,EM,44,40
+2009,NMR,563,510
+2009,Integrative,0,0
+2009,Multiple methods,6,6
+2009,Neutron,5,5
+2009,Other,7,3
+2010,X-ray,7156,7088
+2010,EM,57,56
+2010,NMR,512,463
+2010,Integrative,0,0
+2010,Multiple methods,12,12
+2010,Neutron,4,4
+2010,Other,1,1
+2011,X-ray,7338,7243
+2011,EM,52,52
+2011,NMR,516,479
+2011,Integrative,0,0
+2011,Multiple methods,13,11
+2011,Neutron,5,5
+2011,Other,0,0
+2012,X-ray,8140,8053
+2012,EM,67,67
+2012,NMR,536,487
+2012,Integrative,0,0
+2012,Multiple methods,3,3
+2012,Neutron,4,4
+2012,Other,0,0
+2013,X-ray,8705,8629
+2013,EM,119,108
+2013,NMR,496,450
+2013,Integrative,0,0
+2013,Multiple methods,14,14
+2013,Neutron,4,4
+2013,Other,0,0
+2014,X-ray,8797,8694
+2014,EM,192,191
+2014,NMR,549,501
+2014,Integrative,0,0
+2014,Multiple methods,12,12
+2014,Neutron,1,1
+2014,Other,0,0
+2015,X-ray,8576,8482
+2015,EM,216,216
+2015,NMR,431,399
+2015,Integrative,0,0
+2015,Multiple methods,15,15
+2015,Neutron,4,4
+2015,Other,0,0
+2016,X-ray,9920,9820
+2016,EM,412,411
+2016,NMR,449,398
+2016,Integrative,3,3
+2016,Multiple methods,15,15
+2016,Neutron,4,4
+2016,Other,0,0
+2017,X-ray,10067,9953
+2017,EM,563,563
+2017,NMR,412,368
+2017,Integrative,5,4
+2017,Multiple methods,8,8
+2017,Neutron,6,6
+2017,Other,0,0
+2018,X-ray,9853,9770
+2018,EM,882,881
+2018,NMR,392,357
+2018,Integrative,14,14
+2018,Multiple methods,22,19
+2018,Neutron,6,6
+2018,Other,0,0
+2019,X-ray,9618,9520
+2019,EM,1451,1447
+2019,NMR,380,335
+2019,Integrative,9,9
+2019,Multiple methods,19,19
+2019,Neutron,2,2
+2019,Other,0,0
+2020,X-ray,11189,11080
+2020,EM,2385,2367
+2020,NMR,381,329
+2020,Integrative,24,24
+2020,Multiple methods,20,19
+2020,Neutron,1,1
+2020,Other,0,0
+2021,X-ray,9236,9003
+2021,EM,2951,2943
+2021,NMR,360,304
+2021,Integrative,17,16
+2021,Multiple methods,17,15
+2021,Neutron,3,3
+2021,Other,0,0
+2022,X-ray,9818,9649
+2022,EM,4104,4086
+2022,NMR,301,262
+2022,Integrative,37,36
+2022,Multiple methods,21,18
+2022,Neutron,3,3
+2022,Other,0,0
+2023,X-ray,9582,9387
+2023,EM,4575,4531
+2023,NMR,272,232
+2023,Integrative,53,53
+2023,Multiple methods,15,13
+2023,Neutron,1,0
+2023,Other,0,0
+2024,X-ray,9191,9065
+2024,EM,5786,5758
+2024,NMR,284,233
+2024,Integrative,178,177
+2024,Multiple methods,9,9
+2024,Neutron,6,6
+2024,Other,0,0
+2025,X-ray,10063,9817
+2025,EM,7233,7162
+2025,NMR,234,191
+2025,Integrative,42,40
+2025,Multiple methods,20,19
+2025,Neutron,7,7
+2025,Other,0,0
+2026,X-ray,8996,8865
+2026,EM,7093,6964
+2026,NMR,220,180
+2026,Integrative,28,28
+2026,Multiple methods,8,8
+2026,Neutron,2,2
+2026,Other,0,0

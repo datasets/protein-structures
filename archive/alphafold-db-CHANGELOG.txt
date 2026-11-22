@@ -1,0 +1,107 @@
+# AlphaFold Protein Structure Database Changelog
+
+## 2025-09-15
+* Updated to UniProt 2025_03.
+* Added 40,054 isoform sequences together with corresponding metadata.
+* Added new metadata fields to all sequences: authorNames, groupName,
+  proteinFullNames, taxonomicClassification, keywords, functions,
+  catalyticActivities.
+* Added Multiple Sequence Alignment (MSA) in the A3M format to all structures in
+  the database. This MSA was used as the input to the AlphaFold 2 model. This is
+  accompanied by msa_depths.csv which lists the MSA depth for each entry.
+* 241,070,489 structures
+* Differences in the number of proteins since v4:
+  * Added: 65,711,653 (including isoforms)
+  * Removed: 39,324,993
+  * Changed: 276,539
+  * Unchanged: 175,082,297
+
+
+### Changes
+* CIF: Occupancy now uses 2 decimal digits instead of 1.
+* CIF: Fixed global pLDDT `_ma_qa_metric_global.metric_value` to be computed as
+  a per-residue average, not per-atom.
+* CIF: `_citation_author.citation_id` now uses "primary" instead of "1".
+
+## 2022-11-01
+* Improved prediction accuracy of about 4.4% of predictions
+* 214,686,924 structures
+
+### Changes
+* CIF: `_citation.id` now uses `primary` instead of `1`.
+* Structures with consecutive CA-CA distance > 10 A are now filtered out.
+* The list of 9,203,041 accessions with updated coordinates in this release is
+  in `v4/v4_updated_accessions.txt`.
+* A sharded tar file with structures with updated coordinates in this release is
+  in `v4/updated_entries/v4_updated_entries-*.tar`. There are 921 shards
+  (from 0 to 920), each with at most 10,000 structures.
+
+## 2022-07-28
+* Added UniProt 2021_04
+* All CIF files are now ModelCIF-compliant
+* New PAE format that is about 4x smaller than the old one
+* 214,687,406 structures
+
+### Changes
+* CIF: Added support for templates (added `_ma_template_ref_db_details`,
+  `_ma_template_details`, `_ma_template_trans_matrix`, updated `_ma_data`).
+* CIF: Added `_pdbx_poly_seq_scheme.pdb_mon_id`, set to the same value as
+  `_pdbx_poly_seq_scheme.mon_id`.
+* CIF: Updated `_database_2.database_id` from `AF` to `AlphaFoldDB`
+  (new standardized value).
+* CIF: Updated `_ma_qa_metric.type` from `other` to `pLDDT` (new standardized
+  value).
+* CIF: Moved the legal disclaimer from `_ma_data.content_type_other_details` to
+  `_pdbx_data_usage` and added link to the license file.
+* CIF: Fixed `_ma_qa_metric_local.ordinal_id`, now going from 1 to `num_res`
+  instead of having constant value of 1.
+* CIF: Fixed `_pdbx_audit_revision_details`, now containing the full revision
+  history instead of just the last revision.
+* CIF: Added the `_ma_protocol_step` table.
+* CIF: `_audit_conform.dict_name` is now `mmcif_ma.dic` (previously
+  `mmcif_af.dic`).
+* CIF: `_audit_conform.dict_version` is now `1.3.9` (previously `1.0.2`).
+* CIF: Updated `_audit_conform.dict_location` to
+  `https://raw.githubusercontent.com/ihmwg/ModelCIF/master/dist/mmcif_ma.dic`.
+* PAE: New format that removes redundant `residue1` and `residue2` fields,
+  renames the `distance` field to `predicted_aligned_error` and stores the PAE
+  values rounded to the closest integer in a 2D matrix.
+* FTP: Renamed accession_ids.txt to accession_ids.csv.
+* FTP: The FASTA file now includes protein name, UniProt accession, UniProt
+  identifier, organism name, organism identifier, and gene name (if known).
+
+## 2022-01-27
+* Added Global Health Organisms
+* 995,411 structures
+
+### Changes
+* No format changes
+
+## 2021-12-09
+* Added Swiss-Prot
+* 804,872 structures
+
+### Changes
+* CIF: Added the `_pdbx_poly_seq_scheme` table.
+* CIF: DSSP now writes correct `beg_auth_seq_id` and `end_auth_seq_id`.
+* CIF: Updated Nature paper citation information.
+* CIF: Changed the model name from "AlphaFold model" to
+  "AlphaFold Monomer v2.0 model".
+* CIF: Updated the `_af_target_ref_db_details` table to match the ModelCIF
+  specification.
+* CIF: Updated `_audit_conform.dict_location` to point to the AFDB-specific
+  dictionary.
+* CIF: Added missing field `_struct_ref.pdbx_align_end`.
+* PDB: Fixed the `CRYST1` record to set also `Z = 1`.
+* PDB: Models are now indexed from 1 instead of from 0.
+* PDB: Updated Nature paper citation information.
+* PDB: Changed the model in TITLE from "ALPHAFOLD V2.0" to
+  "ALPHAFOLD MONOMER V2.0".
+* PAE: Colour normalization now has the same min (0.0) and max (31.75) for all
+  structures.
+* FTP: archives now contain version suffix which is set based on the maximum
+  version of any file in an archive.
+
+## 2021-07-22
+* Initial release of 21 model organisms
+* 365,198 structures

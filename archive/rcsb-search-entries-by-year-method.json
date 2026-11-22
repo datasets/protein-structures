@@ -1,0 +1,975 @@
+{
+  "query_id" : "d1ac537c-e5b2-4b28-843e-7fc82f784917",
+  "result_type" : "entry",
+  "total_count" : 263567,
+  "facets" : [ {
+    "name" : "year",
+    "buckets" : [ {
+      "label" : "1976",
+      "population" : 13,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 13
+        } ]
+      } ]
+    }, {
+      "label" : "1977",
+      "population" : 23,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 23
+        } ]
+      } ]
+    }, {
+      "label" : "1978",
+      "population" : 6,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 6
+        } ]
+      } ]
+    }, {
+      "label" : "1979",
+      "population" : 11,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 11
+        } ]
+      } ]
+    }, {
+      "label" : "1980",
+      "population" : 16,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 16
+        } ]
+      } ]
+    }, {
+      "label" : "1981",
+      "population" : 16,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 16
+        } ]
+      } ]
+    }, {
+      "label" : "1982",
+      "population" : 32,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 32
+        } ]
+      } ]
+    }, {
+      "label" : "1983",
+      "population" : 36,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 36
+        } ]
+      } ]
+    }, {
+      "label" : "1984",
+      "population" : 22,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 21
+        }, {
+          "label" : "Multiple methods",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "1985",
+      "population" : 20,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 19
+        }, {
+          "label" : "Multiple methods",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "1986",
+      "population" : 18,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 17
+        }, {
+          "label" : "Multiple methods",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "1987",
+      "population" : 25,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 25
+        } ]
+      } ]
+    }, {
+      "label" : "1988",
+      "population" : 53,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 52
+        }, {
+          "label" : "Neutron",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "1989",
+      "population" : 74,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 71
+        }, {
+          "label" : "NMR",
+          "population" : 2
+        }, {
+          "label" : "Multiple methods",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "1990",
+      "population" : 142,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 135
+        }, {
+          "label" : "NMR",
+          "population" : 7
+        } ]
+      } ]
+    }, {
+      "label" : "1991",
+      "population" : 187,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 162
+        }, {
+          "label" : "NMR",
+          "population" : 23
+        }, {
+          "label" : "EM",
+          "population" : 1
+        }, {
+          "label" : "Neutron",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "1992",
+      "population" : 192,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 181
+        }, {
+          "label" : "NMR",
+          "population" : 11
+        } ]
+      } ]
+    }, {
+      "label" : "1993",
+      "population" : 696,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 622
+        }, {
+          "label" : "NMR",
+          "population" : 74
+        } ]
+      } ]
+    }, {
+      "label" : "1994",
+      "population" : 1289,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 1067
+        }, {
+          "label" : "NMR",
+          "population" : 222
+        } ]
+      } ]
+    }, {
+      "label" : "1995",
+      "population" : 941,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 750
+        }, {
+          "label" : "NMR",
+          "population" : 190
+        }, {
+          "label" : "Other",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "1996",
+      "population" : 1172,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 983
+        }, {
+          "label" : "NMR",
+          "population" : 187
+        }, {
+          "label" : "EM",
+          "population" : 1
+        }, {
+          "label" : "Multiple methods",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "1997",
+      "population" : 1564,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 1234
+        }, {
+          "label" : "NMR",
+          "population" : 329
+        }, {
+          "label" : "EM",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "1998",
+      "population" : 2055,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 1722
+        }, {
+          "label" : "NMR",
+          "population" : 331
+        }, {
+          "label" : "EM",
+          "population" : 2
+        } ]
+      } ]
+    }, {
+      "label" : "1999",
+      "population" : 2356,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 1960
+        }, {
+          "label" : "NMR",
+          "population" : 389
+        }, {
+          "label" : "EM",
+          "population" : 2
+        }, {
+          "label" : "Neutron",
+          "population" : 2
+        }, {
+          "label" : "Other",
+          "population" : 2
+        }, {
+          "label" : "Multiple methods",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "2000",
+      "population" : 2624,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 2236
+        }, {
+          "label" : "NMR",
+          "population" : 370
+        }, {
+          "label" : "EM",
+          "population" : 14
+        }, {
+          "label" : "Other",
+          "population" : 2
+        }, {
+          "label" : "Multiple methods",
+          "population" : 1
+        }, {
+          "label" : "Neutron",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "2001",
+      "population" : 2810,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 2382
+        }, {
+          "label" : "NMR",
+          "population" : 413
+        }, {
+          "label" : "EM",
+          "population" : 13
+        }, {
+          "label" : "Neutron",
+          "population" : 2
+        } ]
+      } ]
+    }, {
+      "label" : "2002",
+      "population" : 2994,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 2525
+        }, {
+          "label" : "NMR",
+          "population" : 441
+        }, {
+          "label" : "EM",
+          "population" : 25
+        }, {
+          "label" : "Neutron",
+          "population" : 2
+        }, {
+          "label" : "Other",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "2003",
+      "population" : 4143,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 3582
+        }, {
+          "label" : "NMR",
+          "population" : 529
+        }, {
+          "label" : "EM",
+          "population" : 29
+        }, {
+          "label" : "Multiple methods",
+          "population" : 2
+        }, {
+          "label" : "Other",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "2004",
+      "population" : 5149,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 4399
+        }, {
+          "label" : "NMR",
+          "population" : 727
+        }, {
+          "label" : "EM",
+          "population" : 15
+        }, {
+          "label" : "Other",
+          "population" : 4
+        }, {
+          "label" : "Multiple methods",
+          "population" : 2
+        }, {
+          "label" : "Neutron",
+          "population" : 2
+        } ]
+      } ]
+    }, {
+      "label" : "2005",
+      "population" : 5334,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 4428
+        }, {
+          "label" : "NMR",
+          "population" : 874
+        }, {
+          "label" : "EM",
+          "population" : 24
+        }, {
+          "label" : "Other",
+          "population" : 5
+        }, {
+          "label" : "Neutron",
+          "population" : 3
+        } ]
+      } ]
+    }, {
+      "label" : "2006",
+      "population" : 6405,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 5509
+        }, {
+          "label" : "NMR",
+          "population" : 860
+        }, {
+          "label" : "EM",
+          "population" : 29
+        }, {
+          "label" : "Other",
+          "population" : 4
+        }, {
+          "label" : "Multiple methods",
+          "population" : 2
+        }, {
+          "label" : "Neutron",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "2007",
+      "population" : 7134,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 6139
+        }, {
+          "label" : "NMR",
+          "population" : 965
+        }, {
+          "label" : "EM",
+          "population" : 20
+        }, {
+          "label" : "Other",
+          "population" : 5
+        }, {
+          "label" : "Multiple methods",
+          "population" : 3
+        }, {
+          "label" : "Neutron",
+          "population" : 2
+        } ]
+      } ]
+    }, {
+      "label" : "2008",
+      "population" : 6902,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 6196
+        }, {
+          "label" : "NMR",
+          "population" : 652
+        }, {
+          "label" : "EM",
+          "population" : 43
+        }, {
+          "label" : "Neutron",
+          "population" : 5
+        }, {
+          "label" : "Other",
+          "population" : 4
+        }, {
+          "label" : "Multiple methods",
+          "population" : 2
+        } ]
+      } ]
+    }, {
+      "label" : "2009",
+      "population" : 7288,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 6663
+        }, {
+          "label" : "NMR",
+          "population" : 563
+        }, {
+          "label" : "EM",
+          "population" : 44
+        }, {
+          "label" : "Other",
+          "population" : 7
+        }, {
+          "label" : "Multiple methods",
+          "population" : 6
+        }, {
+          "label" : "Neutron",
+          "population" : 5
+        } ]
+      } ]
+    }, {
+      "label" : "2010",
+      "population" : 7742,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 7156
+        }, {
+          "label" : "NMR",
+          "population" : 512
+        }, {
+          "label" : "EM",
+          "population" : 57
+        }, {
+          "label" : "Multiple methods",
+          "population" : 12
+        }, {
+          "label" : "Neutron",
+          "population" : 4
+        }, {
+          "label" : "Other",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "2011",
+      "population" : 7924,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 7338
+        }, {
+          "label" : "NMR",
+          "population" : 516
+        }, {
+          "label" : "EM",
+          "population" : 52
+        }, {
+          "label" : "Multiple methods",
+          "population" : 13
+        }, {
+          "label" : "Neutron",
+          "population" : 5
+        } ]
+      } ]
+    }, {
+      "label" : "2012",
+      "population" : 8750,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 8140
+        }, {
+          "label" : "NMR",
+          "population" : 536
+        }, {
+          "label" : "EM",
+          "population" : 67
+        }, {
+          "label" : "Neutron",
+          "population" : 4
+        }, {
+          "label" : "Multiple methods",
+          "population" : 3
+        } ]
+      } ]
+    }, {
+      "label" : "2013",
+      "population" : 9338,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 8705
+        }, {
+          "label" : "NMR",
+          "population" : 496
+        }, {
+          "label" : "EM",
+          "population" : 119
+        }, {
+          "label" : "Multiple methods",
+          "population" : 14
+        }, {
+          "label" : "Neutron",
+          "population" : 4
+        } ]
+      } ]
+    }, {
+      "label" : "2014",
+      "population" : 9551,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 8797
+        }, {
+          "label" : "NMR",
+          "population" : 549
+        }, {
+          "label" : "EM",
+          "population" : 192
+        }, {
+          "label" : "Multiple methods",
+          "population" : 12
+        }, {
+          "label" : "Neutron",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "2015",
+      "population" : 9242,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 8576
+        }, {
+          "label" : "NMR",
+          "population" : 431
+        }, {
+          "label" : "EM",
+          "population" : 216
+        }, {
+          "label" : "Multiple methods",
+          "population" : 15
+        }, {
+          "label" : "Neutron",
+          "population" : 4
+        } ]
+      } ]
+    }, {
+      "label" : "2016",
+      "population" : 10803,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 9920
+        }, {
+          "label" : "NMR",
+          "population" : 449
+        }, {
+          "label" : "EM",
+          "population" : 412
+        }, {
+          "label" : "Multiple methods",
+          "population" : 15
+        }, {
+          "label" : "Neutron",
+          "population" : 4
+        }, {
+          "label" : "Integrative",
+          "population" : 3
+        } ]
+      } ]
+    }, {
+      "label" : "2017",
+      "population" : 11061,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 10067
+        }, {
+          "label" : "EM",
+          "population" : 563
+        }, {
+          "label" : "NMR",
+          "population" : 412
+        }, {
+          "label" : "Multiple methods",
+          "population" : 8
+        }, {
+          "label" : "Neutron",
+          "population" : 6
+        }, {
+          "label" : "Integrative",
+          "population" : 5
+        } ]
+      } ]
+    }, {
+      "label" : "2018",
+      "population" : 11169,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 9853
+        }, {
+          "label" : "EM",
+          "population" : 882
+        }, {
+          "label" : "NMR",
+          "population" : 392
+        }, {
+          "label" : "Multiple methods",
+          "population" : 22
+        }, {
+          "label" : "Integrative",
+          "population" : 14
+        }, {
+          "label" : "Neutron",
+          "population" : 6
+        } ]
+      } ]
+    }, {
+      "label" : "2019",
+      "population" : 11479,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 9618
+        }, {
+          "label" : "EM",
+          "population" : 1451
+        }, {
+          "label" : "NMR",
+          "population" : 380
+        }, {
+          "label" : "Multiple methods",
+          "population" : 19
+        }, {
+          "label" : "Integrative",
+          "population" : 9
+        }, {
+          "label" : "Neutron",
+          "population" : 2
+        } ]
+      } ]
+    }, {
+      "label" : "2020",
+      "population" : 14000,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 11189
+        }, {
+          "label" : "EM",
+          "population" : 2385
+        }, {
+          "label" : "NMR",
+          "population" : 381
+        }, {
+          "label" : "Integrative",
+          "population" : 24
+        }, {
+          "label" : "Multiple methods",
+          "population" : 20
+        }, {
+          "label" : "Neutron",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "2021",
+      "population" : 12584,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 9236
+        }, {
+          "label" : "EM",
+          "population" : 2951
+        }, {
+          "label" : "NMR",
+          "population" : 360
+        }, {
+          "label" : "Integrative",
+          "population" : 17
+        }, {
+          "label" : "Multiple methods",
+          "population" : 17
+        }, {
+          "label" : "Neutron",
+          "population" : 3
+        } ]
+      } ]
+    }, {
+      "label" : "2022",
+      "population" : 14284,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 9818
+        }, {
+          "label" : "EM",
+          "population" : 4104
+        }, {
+          "label" : "NMR",
+          "population" : 301
+        }, {
+          "label" : "Integrative",
+          "population" : 37
+        }, {
+          "label" : "Multiple methods",
+          "population" : 21
+        }, {
+          "label" : "Neutron",
+          "population" : 3
+        } ]
+      } ]
+    }, {
+      "label" : "2023",
+      "population" : 14498,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 9582
+        }, {
+          "label" : "EM",
+          "population" : 4575
+        }, {
+          "label" : "NMR",
+          "population" : 272
+        }, {
+          "label" : "Integrative",
+          "population" : 53
+        }, {
+          "label" : "Multiple methods",
+          "population" : 15
+        }, {
+          "label" : "Neutron",
+          "population" : 1
+        } ]
+      } ]
+    }, {
+      "label" : "2024",
+      "population" : 15454,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 9191
+        }, {
+          "label" : "EM",
+          "population" : 5786
+        }, {
+          "label" : "NMR",
+          "population" : 284
+        }, {
+          "label" : "Integrative",
+          "population" : 178
+        }, {
+          "label" : "Multiple methods",
+          "population" : 9
+        }, {
+          "label" : "Neutron",
+          "population" : 6
+        } ]
+      } ]
+    }, {
+      "label" : "2025",
+      "population" : 17599,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 10063
+        }, {
+          "label" : "EM",
+          "population" : 7233
+        }, {
+          "label" : "NMR",
+          "population" : 234
+        }, {
+          "label" : "Integrative",
+          "population" : 42
+        }, {
+          "label" : "Multiple methods",
+          "population" : 20
+        }, {
+          "label" : "Neutron",
+          "population" : 7
+        } ]
+      } ]
+    }, {
+      "label" : "2026",
+      "population" : 16347,
+      "facets" : [ {
+        "name" : "method",
+        "buckets" : [ {
+          "label" : "X-ray",
+          "population" : 8996
+        }, {
+          "label" : "EM",
+          "population" : 7093
+        }, {
+          "label" : "NMR",
+          "population" : 220
+        }, {
+          "label" : "Integrative",
+          "population" : 28
+        }, {
+          "label" : "Multiple methods",
+          "population" : 8
+        }, {
+          "label" : "Neutron",
+          "population" : 2
+        } ]
+      } ]
+    } ]
+  } ]
+}
